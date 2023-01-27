@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+}
+
+.box-wrapper {
+  margin: 20px auto;
+  width: fit-content;
+}
+
+.row {
+  display: flex;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  border:1px solid black;
+  font-size: 16px;
+  cursor:grabbing;
+}
+
+.box--simple {
+  background-color: white;
+}
+
+.box--fill {
+  background-color: steelblue;
+}
+
+.box--source {
+  background-color: black;
+}
+
+.box--target {
+  background-color: red;
+}
+
+.start-button {
+  background-color: steelblue;
+  border-radius: 5px;
+  color: white;
+  padding: 8px 12px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.start-button:active {
+  background-color: green;
+}
